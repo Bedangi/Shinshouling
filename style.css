@@ -1,5 +1,5 @@
 .main{
-    background-image: url("icons/bg2.jpg");
+    background-image: url("bg2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -94,8 +94,8 @@ body{
     left: 290px;
 }
 @keyframes bg_chng{
-    from{background-image: url("icons/bg2.jpg");}
-    to{background-image: url("icons/bg1.jpg");}
+    from{background-image: url("bg2.jpg");}
+    to{background-image: url("bg1.jpg");}
 }
 @keyframes txt_chng{
     from{color: gold;}
