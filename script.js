@@ -10,7 +10,7 @@ window.onload = function(){
         //<img id="rock" src="rock.png">
         let choice=document.createElement("img");
         choice.id = choices[i];
-        choice.src="icons/" + choices[i] + ".png";
+        choice.src= choices[i] + ".png";
         choice.addEventListener("click",selectChoice);
         document.getElementById("choices").append(choice);
     }
@@ -18,11 +18,11 @@ window.onload = function(){
 
 function selectChoice(){
     you= this.id;
-    document.getElementById("your_choice").src ="icons/" + you + ".png";
+    document.getElementById("your_choice").src = you + ".png";
 
     //random for opp
     opp=choices[Math.floor(Math.random()*5)];
-    document.getElementById("opp_choice").src = "icons/" + opp + ".png";
+    document.getElementById("opp_choice").src = opp + ".png";
 
     //check for winner
     if (yourscore<5 && oppscore<5 ){
